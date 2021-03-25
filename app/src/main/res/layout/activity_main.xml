@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/room_1"
+            android:clickable="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:background="@android:color/background_light"
+            android:layout_marginBottom="3dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp">
+
+            <TextView
+                android:id="@+id/room_1_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Room 1"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/room_2"
+            android:clickable="true"
+            android:layout_below="@id/room_1"
+            android:background="@android:color/background_light"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingRight="16dp"
+            android:layout_marginBottom="3dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp">
+
+            <TextView
+                android:id="@+id/room_2_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Room 2"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/room_3"
+            android:clickable="true"
+            android:background="@android:color/background_light"
+            android:layout_below="@id/room_2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingRight="16dp"
+            android:layout_marginBottom="3dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp">
+
+            <TextView
+                android:id="@+id/room_3_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Room 3"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/room_4"
+            android:clickable="true"
+            android:layout_below="@id/room_3"
+            android:background="@android:color/background_light"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="3dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp">
+
+            <TextView
+                android:id="@+id/room_4_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Room 4"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/down"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/test_button"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@android:color/holo_orange_light"
+                android:text=" about us "
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/created_by"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created by :\nPhoenix_106_108_135_172"
+                android:layout_alignParentLeft="true"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

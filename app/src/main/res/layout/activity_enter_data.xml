@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enter_data">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="60dp"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/humidity_edit_text"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/temperature_edit_text"
+            android:layout_height="50sp"
+            android:hint="Humidity"/>
+        <EditText
+            android:id="@+id/temperature_edit_text"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_marginTop="100dp"
+            android:layout_height="50sp"
+            android:hint="Temperature"/>
+        <EditText
+            android:id="@+id/air_quality_edit_text"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/humidity_edit_text"
+            android:inputType="number"
+            android:layout_height="50sp"
+            android:hint="Air Quality"/>
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_below="@id/air_quality_edit_text"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:padding="10dp"
+            android:background="@android:color/holo_orange_light"/>
+        <TextView
+            android:id="@+id/display_text_2"
+            android:layout_above="@id/textview_2"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text=" "/>
+        <TextView
+            android:id="@+id/textview_2"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="Room_no"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_devices">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="60dp"
+        android:layout_height="match_parent">
+        <RadioGroup
+            android:id="@+id/radio_button_group"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/ac_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AC"/>
+            <RadioButton android:id="@+id/fan_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FAN"/>
+            <RadioButton android:id="@+id/heater_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HEATER"/>
+            <RadioButton android:id="@+id/ventilator_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VENTILATOR"/>
+        </RadioGroup>
+        <EditText
+            android:id="@+id/device_name_edit_text"
+            android:layout_below="@id/radio_button_group"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="50sp"
+            android:hint="Name of the device"/>
+        <Button
+            android:id="@+id/add_device_button"
+            android:layout_below="@id/device_name_edit_text"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="ADD DEVICE"
+            android:background="@android:color/holo_orange_light"/>
+        <TextView
+            android:id="@+id/remove_device_textview"
+            android:layout_below="@id/add_device_button"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:text="or instead remove a device"/>
+        <TextView
+            android:id="@+id/test"
+            android:layout_above="@id/textview_1"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="test"/>
+        <TextView
+            android:id="@+id/textview_1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="Room_no"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
