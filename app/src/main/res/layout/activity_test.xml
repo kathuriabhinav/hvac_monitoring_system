@@ -57,8 +57,7 @@
                         android:padding="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Group Leader\n\nIIT2019135
-                        \nSection - B\nProject - ' Phoenix '"
+                        android:text="Project - ' Phoenix '"
                         android:textColor="@android:color/black" />
 
 
