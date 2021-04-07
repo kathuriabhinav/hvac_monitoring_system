@@ -12,7 +12,7 @@
         <RadioGroup
             android:id="@+id/radio_button_group"
             android:layout_width="match_parent"
-            android:layout_alignParentTop="true"
+            android:layout_below="@id/test"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:orientation="vertical">
@@ -56,18 +56,19 @@
             android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:layout_marginTop="20dp"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@android:color/black"
             android:clickable="true"
             android:layout_height="wrap_content"
-            android:text="or instead remove a device"/>
+            android:textSize="16sp"
+            android:text="or instead REMOVE A DEVICE"/>
         <TextView
             android:id="@+id/test"
-            android:layout_above="@id/textview_1"
+            android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:padding="10dp"
             android:layout_height="wrap_content"
-            android:text="test"/>
+            android:text=" "/>
         <TextView
             android:id="@+id/textview_1"
             android:layout_alignParentBottom="true"

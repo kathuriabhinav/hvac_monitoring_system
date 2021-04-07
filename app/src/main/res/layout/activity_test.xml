@@ -57,11 +57,122 @@
                         android:padding="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Project - ' Phoenix '"
+                        android:text="Group Leader\n\nIIT2019135
+                        \nSection - B\nProject - ' Phoenix '"
                         android:textColor="@android:color/black" />
 
 
                 </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:src="@drawable/vasanth"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:padding="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vasanth Reddy"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:padding="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Group Member\n\nIIT2019172
+                        \nSection - B\nProject - ' Phoenix '"
+                        android:textColor="@android:color/black" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:src="@drawable/harsha"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="M Harsha Vardhan"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Group Member\n\nIIT2019108
+                        \nSection - B\nProject - ' Phoenix '"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:src="@drawable/jayaram"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="R Jayaram Naik"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Group Member\n\nIIT2019106
+                        \nSection - B\nProject - ' Phoenix '"
+                    android:textColor="@android:color/black" />
 
 
             </LinearLayout>

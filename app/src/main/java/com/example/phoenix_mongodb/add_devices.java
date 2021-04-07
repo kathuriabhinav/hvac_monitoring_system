@@ -115,7 +115,7 @@ public class add_devices extends AppCompatActivity {
                         }
                     }
                 });
-                textView3.setText("device "+ s +" ADDED SUCCESSFULLY");
+                textView3.setText(device_name+" ADDED");
             }
         });
 

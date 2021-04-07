@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -40,6 +41,7 @@ public class room extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_room);
+
         final App app = new App(new AppConfiguration.Builder(Appid).build());
         Credentials credentials = Credentials.emailPassword("kathuriabhinav@gmail.com","12345678");
         app.loginAsync(credentials, new App.Callback<User>() {
